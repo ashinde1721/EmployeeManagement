@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component renders component without breaking existing snapshot ui changes 1`] = `
+<div>
+  <nav
+    class="navbar aqua-marine"
+  >
+    <div
+      class="navbar-brand white"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-6"
+        >
+          <img
+            alt=""
+            class="align"
+            height="20"
+            src="white-menu.jpg"
+            width="20"
+          />
+          <span
+            class="pad-left"
+          >
+            Employee Management Sysytem
+          </span>
+        </div>
+        <div
+          class="col-6"
+        >
+          <div
+            class="float-right"
+          >
+            <div>
+              <img
+                alt=""
+                class="align"
+                height="20"
+                src="search.png"
+                width="20"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

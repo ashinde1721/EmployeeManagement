@@ -1,0 +1,55 @@
+.delete {
+    color: red;
+    cursor:pointer;
+}
+.edit {
+    color: greenyellow;
+    cursor: pointer;
+}
+.employee{
+    margin: 10px auto;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    .employee-image{
+        font-size: 35px;
+        text-align: center;
+    }
+    .employee-title{
+        font-size: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        height: 38px;
+        line-height: 1;
+    }
+    .employee-byline-block{
+        font-size: 12px;
+        .date{
+            text-align: center;
+            text-align: center;
+            float: right;
+            margin-right: 10px;
+            .icon{
+                margin-top: -2px;
+            }
+            .pad-10{
+                padding-left: 10px;
+            }
+        }
+    }
+    .vertical-align-center{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-left: -15px;
+    }
+}
+.cursorPointer {
+    cursor: pointer;
+}
+.circle{
+    border-radius: 50%;
+}

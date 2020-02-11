@@ -1,0 +1,40 @@
+
+.aqua-marine{
+    background-color: #7fa6ff;
+}
+
+.white{
+    color: white;
+}
+
+.align{
+    margin-top: -4px;
+}
+
+.pad-left{
+    padding-left: 15px; 
+}
+
+.navbar{
+    position: fixed !important;
+    z-index: 1;
+}
+
+.nav-title{
+    font-size: 1.25rem;
+    transition: 1s ease-in-out;
+}
+
+.navbar-brand{
+    width: 100%;
+}
+
+.display-inline{
+    display: inline !important;
+}
+
+@media (max-width: 576px) { 
+    .nav-title{
+        font-size: 0.8rem;
+    }
+ }
